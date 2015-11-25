@@ -16,11 +16,12 @@ import Dispatch
 
  - Returns: A new promise that resolves once all the provided promises resolve.
 */
-public func join<T>(promises: Promise<T>...) -> Promise<[T]> {
+
+public func join<T>(promises: [Promise<T>]) -> Promise<[T]> {
     var countdown = promises.count
     let barrier = dispatch_queue_create("org.promisekit.barrier.join", DISPATCH_QUEUE_CONCURRENT)
     var rejected = false
-
+    
     return Promise { fulfill, reject in
         for promise in promises {
             promise.pipe { resolution in
@@ -29,7 +30,7 @@ public func join<T>(promises: Promise<T>...) -> Promise<[T]> {
                         token.consumed = true  // the parent Error.Join consumes all
                         rejected = true
                     }
-
+                    
                     if --countdown == 0 {
                         if rejected {
                             reject(Error.Join(promises))
@@ -41,4 +42,8 @@ public func join<T>(promises: Promise<T>...) -> Promise<[T]> {
             }
         }
     }
+}
+
+public func join<T>(promises: Promise<T>...) -> Promise<[T]> {
+    return join(promises)
 }
