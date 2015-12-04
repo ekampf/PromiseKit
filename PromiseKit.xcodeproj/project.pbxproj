@@ -88,8 +88,6 @@
 		638AF8CF1B62B1AF0045C3E8 /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D73BE11B20B48F00843146 /* afterlife.swift */; };
 		638AF8D21B62B1AF0045C3E8 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACAA1AEF42F2001F0069 /* NSNotificationCenter+AnyPromise.m */; };
 		638AF8D31B62B1AF0045C3E8 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACAB1AEF42F2001F0069 /* NSNotificationCenter+Promise.swift */; };
-		638AF8D81B62B1AF0045C3E8 /* NSURLConnection+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACB01AEF42F2001F0069 /* NSURLConnection+AnyPromise.m */; };
-		638AF8D91B62B1AF0045C3E8 /* NSURLConnection+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACB11AEF42F2001F0069 /* NSURLConnection+Promise.swift */; };
 		638AF8DA1B62B1AF0045C3E8 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C6BA1AF6CA8500392D37 /* NSObject+Promise.swift */; };
 		638AF8DB1B62B1AF0045C3E8 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F064CA1B31C68D004EDAA1 /* NSURLSession+Promise.swift */; };
 		638AF8DD1B62B1AF0045C3E8 /* MKDirections+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACB41AEF42F2001F0069 /* MKDirections+AnyPromise.m */; };
@@ -130,8 +128,6 @@
 		638AF9151B62B1D80045C3E8 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACAB1AEF42F2001F0069 /* NSNotificationCenter+Promise.swift */; };
 		638AF9171B62B1D80045C3E8 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACAD1AEF42F2001F0069 /* NSTask+AnyPromise.m */; };
 		638AF9181B62B1D80045C3E8 /* NSTask+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACAE1AEF42F2001F0069 /* NSTask+Promise.swift */; };
-		638AF91A1B62B1D80045C3E8 /* NSURLConnection+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACB01AEF42F2001F0069 /* NSURLConnection+AnyPromise.m */; };
-		638AF91B1B62B1D80045C3E8 /* NSURLConnection+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACB11AEF42F2001F0069 /* NSURLConnection+Promise.swift */; };
 		638AF91C1B62B1D80045C3E8 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306C6BA1AF6CA8500392D37 /* NSObject+Promise.swift */; };
 		638AF91D1B62B1D80045C3E8 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F064CA1B31C68D004EDAA1 /* NSURLSession+Promise.swift */; };
 		638AF91F1B62B1D80045C3E8 /* MKDirections+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6302ACB41AEF42F2001F0069 /* MKDirections+AnyPromise.m */; };
@@ -361,9 +357,6 @@
 		6302ACAC1AEF42F2001F0069 /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+AnyPromise.h"; sourceTree = "<group>"; };
 		6302ACAD1AEF42F2001F0069 /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+AnyPromise.m"; sourceTree = "<group>"; };
 		6302ACAE1AEF42F2001F0069 /* NSTask+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTask+Promise.swift"; sourceTree = "<group>"; };
-		6302ACAF1AEF42F2001F0069 /* NSURLConnection+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLConnection+AnyPromise.h"; sourceTree = "<group>"; };
-		6302ACB01AEF42F2001F0069 /* NSURLConnection+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLConnection+AnyPromise.m"; sourceTree = "<group>"; };
-		6302ACB11AEF42F2001F0069 /* NSURLConnection+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURLConnection+Promise.swift"; sourceTree = "<group>"; };
 		6302ACB31AEF42F2001F0069 /* MKDirections+AnyPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKDirections+AnyPromise.h"; sourceTree = "<group>"; };
 		6302ACB41AEF42F2001F0069 /* MKDirections+AnyPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKDirections+AnyPromise.m"; sourceTree = "<group>"; };
 		6302ACB51AEF42F2001F0069 /* MKDirections+Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKDirections+Promise.swift"; sourceTree = "<group>"; };
@@ -641,9 +634,6 @@
 				6302ACAC1AEF42F2001F0069 /* NSTask+AnyPromise.h */,
 				6302ACAD1AEF42F2001F0069 /* NSTask+AnyPromise.m */,
 				6302ACAE1AEF42F2001F0069 /* NSTask+Promise.swift */,
-				6302ACAF1AEF42F2001F0069 /* NSURLConnection+AnyPromise.h */,
-				6302ACB01AEF42F2001F0069 /* NSURLConnection+AnyPromise.m */,
-				6302ACB11AEF42F2001F0069 /* NSURLConnection+Promise.swift */,
 				6306C6BA1AF6CA8500392D37 /* NSObject+Promise.swift */,
 				63F064CA1B31C68D004EDAA1 /* NSURLSession+Promise.swift */,
 			);
@@ -1409,8 +1399,6 @@
 				6391FD251B62E0FF00671798 /* TestUIImagePickerController.swift in Sources */,
 				638AF8D21B62B1AF0045C3E8 /* NSNotificationCenter+AnyPromise.m in Sources */,
 				638AF8D31B62B1AF0045C3E8 /* NSNotificationCenter+Promise.swift in Sources */,
-				638AF8D81B62B1AF0045C3E8 /* NSURLConnection+AnyPromise.m in Sources */,
-				638AF8D91B62B1AF0045C3E8 /* NSURLConnection+Promise.swift in Sources */,
 				638AF8DA1B62B1AF0045C3E8 /* NSObject+Promise.swift in Sources */,
 				638AF8DB1B62B1AF0045C3E8 /* NSURLSession+Promise.swift in Sources */,
 				638AF8DD1B62B1AF0045C3E8 /* MKDirections+AnyPromise.m in Sources */,
@@ -1483,8 +1471,6 @@
 				638AF9151B62B1D80045C3E8 /* NSNotificationCenter+Promise.swift in Sources */,
 				638AF9171B62B1D80045C3E8 /* NSTask+AnyPromise.m in Sources */,
 				638AF9181B62B1D80045C3E8 /* NSTask+Promise.swift in Sources */,
-				638AF91A1B62B1D80045C3E8 /* NSURLConnection+AnyPromise.m in Sources */,
-				638AF91B1B62B1D80045C3E8 /* NSURLConnection+Promise.swift in Sources */,
 				638AF91C1B62B1D80045C3E8 /* NSObject+Promise.swift in Sources */,
 				638AF91D1B62B1D80045C3E8 /* NSURLSession+Promise.swift in Sources */,
 				638AF91F1B62B1D80045C3E8 /* MKDirections+AnyPromise.m in Sources */,
